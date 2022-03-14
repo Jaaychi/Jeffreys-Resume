@@ -1,0 +1,98 @@
+body {
+    background-color: #272d33;
+    font-family: "Nunito", sans-serif;
+}
+
+#mainNavbar {
+    font-size: 1.5rem;
+    font-weight:100;
+}
+
+#mainNavbar .navbar-brand {
+    color: #c19f84;
+    font-size: 2rem;
+}
+
+#mainNavbar .nav-link {
+    color: white;
+    transition: all 0.5s;
+}
+
+#mainNavbar .nav-link:hover {
+    color: #c19f84;
+    box-shadow: 0 0.5em 0.5em -.4em #c19f84;
+  transform: translateY(-.25em);
+}
+
+#headingGroup span {
+    color: #c19f84;
+}
+
+#headingGroup h1 {
+    font-weight:100;
+    font-size: 5rem;
+}
+
+#headingGroup h2 {
+    font-weight:100;
+    font-size: 2.3rem;
+    line-height: 1.5;
+}
+
+.navbar.scrolled {
+    background-color: #272d33;
+    transition: background 500ms;
+}
+
+@media (max-width: 1200px) {
+    #headingGroup h1 {
+        font-weight:100;
+        font-size: 4rem;
+}
+}
+
+#secondGroup {
+    color:#c19f84;
+    font-weight:100;
+    font-size:4rem;
+}
+
+#whiteFont {
+    color:white;
+    font-weight:100;
+}
+
+p {
+    color: #c19f84;
+    font-weight:100;
+    font-size:1.3rem;
+    line-height:2;
+}
+
+.content {
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+
+button {
+    background-color: #c19f84;
+    color:white;
+    border-radius: 20px;
+    border: solid white;
+    transform: 3s;
+    
+}
+
+button:hover {
+    color: white;
+    background-color: #272d33;
+    border-radius: 10%;
+    box-shadow: 0 0.5em 0.5em -.4em #c19f84;
+  transform: translateY(-.25em);
+} 
+
+
+.form-label {
+    color:white;
+}
+/* CREATED BY JEFFREY CHI */
